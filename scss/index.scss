@@ -1,0 +1,25 @@
+@import "mixins";
+@import "colors";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: $greyColor;
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 50%;
+
+    input {
+        width: 50%;
+    }
+
+    .large-name {
+        @include large-text();
+    }
+}
+
+
+  

@@ -1,0 +1,25 @@
+{
+  "name": "hello-sass",
+  "version": "1.0.0",
+  "description": "lalal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitalicernomschi/hello-sass.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "vcernomschi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitalicernomschi/hello-sass/issues"
+  },
+  "homepage": "https://github.com/vitalicernomschi/hello-sass#readme",
+  "dependencies": {
+    "sass": "^1.23.0"
+  }
+}
