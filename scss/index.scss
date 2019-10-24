@@ -11,6 +11,7 @@
     margin: 0 auto;
     border: 2px solid black;
     width: 50%;
+    color: red;
 
     input {
         width: 50%;
@@ -18,6 +19,19 @@
 
     .large-name {
         @include large-text();
+    }
+
+    p {
+        color: black;
+
+        @media(min-width: 600px) and (max-width: 1000px) {
+            color: red;
+            display: none;
+        }
+
+        @media(min-width: 1001px) {
+            color: blue;
+        }
     }
 }
 

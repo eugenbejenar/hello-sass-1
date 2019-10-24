@@ -4,6 +4,8 @@
   "description": "lalal",
   "main": "index.js",
   "scripts": {
+    "sass:build": "sass ./scss/index.scss ./css/index.css",
+    "sass:watch": "sass ./scss/index.scss ./css/index.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +21,8 @@
     "url": "https://github.com/vitalicernomschi/hello-sass/issues"
   },
   "homepage": "https://github.com/vitalicernomschi/hello-sass#readme",
-  "dependencies": {
-    "sass": "^1.23.0"
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.23.1"
   }
 }
